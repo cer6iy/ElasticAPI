@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-var search = require('');
+var search = require('elastic-api');
 
 /* GET home page. */
 router.get('/', search);
